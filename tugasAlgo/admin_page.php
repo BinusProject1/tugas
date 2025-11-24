@@ -17,13 +17,13 @@ if(!isset($_SESSION['email'])){
     <title>Admin</title>
     <link rel="stylesheet" href="admin.css">
 </head>
-<body>
+<body>  
     <!-- navbar start -->
-     <nav>
+    <nav>
         <div class="logo">
-            <a href="#" alt="BINUS JAYA LIBRARY">BJL</a>
+            <a href="#" alt="B LIBRARY">BJL</a>
         </div>
-     </nav>
+    </nav>
     <!-- navbar end -->
     
 </body>
