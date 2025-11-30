@@ -40,8 +40,26 @@ if(!isset($_SESSION['email'])){
     
     <!-- Main Content Start -->
     <main class="content">
-        <h1>WELCOME TO BINUS JAYA LIBRARY, <?php echo htmlspecialchars($_SESSION['name']); ?>!</h1>
+        <h1>WELCOME TO B LIBRARY, <?php echo htmlspecialchars($_SESSION['name']); ?>!</h1>
         <p>Ini adalah halaman utama perpustakaan Anda.</p>
+
+        <section class="recomendation" id="recomendation">
+            <h1>Book recomendation</h1>
+            <div class="recomendation-content">
+                <?php
+                    $json_data = file_get_contents('novel.json');
+                    $books = json_decode($json_data, true)['books'];
+                    $recommended_books = array_slice($books, 0, 7);
+
+                    foreach ($recommended_books as $book) {
+                        echo '<div class="recomendation-card">';
+                        echo '<img src="' . htmlspecialchars($book['image']) . '" alt="' . htmlspecialchars($book['title']) . '">';
+                        echo '</div>';
+                    }
+                ?>
+            </div>
+        </section>
+
     </main>
     <!-- Main Content End -->
 </body>
