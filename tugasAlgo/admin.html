@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="admin.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <!-- side navbar start -->
+    <nav>
+        <div class="profile">
+            <i class="material-icons">account_circle</i>
+            <h1>Admin</h1>
+            <a class="detail" href="profile.php">see profile</a>
+        </div>
+        <div>
+            <a class="menu" href="#">HOME</a>
+            <a class="menu" href="#">Book</a>
+            <a class="menu" href="#">History</a>
+            <a class="menu" href="#">Finacial</a>
+        </div>
+        <div>
+            <a class="menu" onclick="window.location.href='login/logout.php'">LogOut</a>
+        </div>
+    </nav>
+    <!-- side navbar end -->
+    
+    <!-- Main Content Start -->
+    <main class="content">
+        <div class="welcome">
+            <h1>Welcome Admin</h1>
+        </div>
+        <div class="finance">
+            <h2>Financial</h2>
+            <h3 class="cash">Cash in Bank : 0$</h3>
+            <h3 class="receivable">Accounts Receivable : 0$</h3>
+        </div>
+        <h2 class="add-words">Add a Book</h2>
+        <div class="button">
+            <button id="add">Add</button>
+        </div>
+        <h2 class="delete-words">Delete a Book</h2>
+        <div class="button">
+            <button id="delete">Delete</button>
+        </div>
+        <div class="table">
+            <h2>User Data</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Role</th>
+                        <th>Accounts Receivable</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Dummy</td>
+                        <td>dummy@gmail.com</td>
+                        <td>Admin</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <!-- Main Content End -->
+</body>
+</html>

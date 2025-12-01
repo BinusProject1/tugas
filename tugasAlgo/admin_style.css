@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fff;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 220px;
+    height: 100%;
+    background: #003366;
+    box-shadow: 3px 0px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+nav .profile {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #004080;
+}
+
+nav .profile .material-icons {
+    font-size: 80px;
+    color: #fff;
+}
+nav .profile h1{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+nav .profile .detail{
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+nav div .menu {
+    display: block;
+    padding: 15px 25px;
+    color: #fff;
+    font-size: 18px;
+    transition: background 0.3s, padding-left 0.3s;
+    border-bottom: 1px solid #004080;
+}
+
+nav div:first-of-type .menu:first-of-type {
+    border-top: 1px solid #004080;
+}
+
+nav div .menu:hover {
+    background: #0059b3;
+    padding-left: 35px;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 40px;
+}
+
+.welcome {
+    margin-bottom: 50px;
+}
+
+.finance {
+    margin-top: 30px;
+}
+
+.cash {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.button {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#add {
+    margin-top: 20px;
+    padding: 15px 39px;
+}
+
+#delete {
+    position: fixed;
+    margin-top: 20px;
+    padding: 15px 30px;
+}
+
+#add, #delete  {
+    display: block;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    background-color: #004080;
+    border: 0px;
+    transition: 0.165s;
+}
+
+#add:hover, #delete:hover {
+    transform: scale(1.030 , 1.030);
+} 
+
+.add-words {
+    margin-top: 50px;
+}
+.delete-words {
+    margin-top: 120px;
+}
+
+.table {
+    margin-top: 135px;
+}
+
+.head {
+    margin-top: 20px;
+}
+
+table {
+    margin-top: 20px;
+    font-size: 18px;
+    position: center;
+}
+
+th, td {
+    padding: 10px 90px;
+    border: 2px solid #003366;
+}
+
+tr {
+    position: center;
+}
