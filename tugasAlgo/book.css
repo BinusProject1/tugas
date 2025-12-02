@@ -13,7 +13,7 @@ html {
 body {
     background: #fff;
 }
-
+/* side bar style */
 nav {
     position: fixed;
     left: 0;
@@ -65,83 +65,21 @@ nav div .menu:hover {
     background: #0059b3;
     padding-left: 35px;
 }
+/* serch bar stye */
 
-.content {
-    margin-left: 250px;
-    padding: 40px;
-}
-
-.welcome {
-    margin-bottom: 50px;
-}
-
-.finance {
-    margin-top: 30px;
-}
-
-.cash {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-.button {
-    position: relative;
+.search{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100px;
-}
-#add {
-    margin-top: 20px;
-    padding: 15px 0px;
-}
-
-#delete {
+    z-index: 3;
     position: relative;
-    margin-top: 20px;
-    padding: 15px 0px;
+    justify-content: center;
+    width: 30%;
+    min-height: 50px;
+    background: #dad7d7;
+    border: 1px solid transparent;
+    box-shadow: none;
+    border-radius: 26px;
+    margin: 30px 620px;
 }
 
-#add, #delete  {
-    display: block;
-    font-size: 18px;
-    border-radius: 10px;
-    color: white;
-    background-color: #004080;
-    border: 0px;
-    transition: 0.165s;
-}
+/* search logo */
 
-#add:hover, #delete:hover {
-    transform: scale(1.030 , 1.030);
-} 
-
-.add-words {
-    margin-top: 50px;
-}
-.delete-words {
-    margin-top: 120px;
-}
-
-.table {
-    margin-top: 135px;
-}
-
-.head {
-    margin-top: 20px;
-}
-
-table {
-    margin-top: 20px;
-    font-size: 18px;
-    position: center;
-}
-
-th, td {
-    padding: 10px 50px;
-    border: 2px solid #003366;
-}
-
-tr {
-    position: center;
-}

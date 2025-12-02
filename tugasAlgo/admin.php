@@ -1,3 +1,22 @@
+<?php
+$conn = mysqli_connect("localhost", "root", "", "user_client");
+
+if(!$conn){
+    die("connection feild: " . mysqli_connect_error());
+}
+
+$sql ="SELECT id, name, email, role FROM users";
+$result = mysqli_query($conn, $sql); 
+
+session_start();
+if(!isset($_SESSION['email'])){
+    header("location: login/login.php");
+    exit();
+}
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +31,7 @@
     <nav>
         <div class="profile">
             <i class="material-icons">account_circle</i>
-            <h1>Admin</h1>
+            <h1><?php echo htmlspecialchars($_SESSION['name']); ?></h1>
             <a class="detail" href="profile.php">see profile</a>
         </div>
         <div>
@@ -30,7 +49,7 @@
     <!-- Main Content Start -->
     <main class="content">
         <div class="welcome">
-            <h1>Welcome Admin</h1>
+            <h1>Welcome, <?php echo htmlspecialchars($_SESSION['name']); ?> </h1>
         </div>
         <div class="finance">
             <h2>Financial</h2>
@@ -54,17 +73,25 @@
                         <th>Name</th>
                         <th>Email</th>
                         <th>Role</th>
-                        <th>Accounts Receivable</th>
+                        <!-- <th>Accounts Receivable</th> -->
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Dummy</td>
-                        <td>dummy@gmail.com</td>
-                        <td>Admin</td>
-                        <td>-</td>
-                    </tr>
+                    <?php 
+                    while($row = mysqli_fetch_assoc($result)){
+                        echo "<tr>";
+                        echo "<td>" . $row['id'] . "</td>";
+                        echo "<td>" . $row['name'] . "</td>";
+                        echo "<td>" . $row['email'] . "</td>";
+                        echo "<td>" . $row['role'] . "</td>";
+                        echo "</tr>";
+
+                    }
+                    
+                    mysqli_close($conn);
+                    
+                    
+                    ?>
                 </tbody>
             </table>
         </div>

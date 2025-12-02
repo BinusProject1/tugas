@@ -28,7 +28,7 @@ if(!isset($_SESSION['email'])){
         </div>
         <div>
             <a class="menu" href="#">HOME</a>
-            <a class="menu" href="#">Book</a>
+            <a class="menu" href="book.php">Book</a>
             <a class="menu" href="#">History</a>
             <a class="menu" href="#">Finacial</a>
         </div>
@@ -49,7 +49,7 @@ if(!isset($_SESSION['email'])){
                 <?php
                     $json_data = file_get_contents('novel.json');
                     $books = json_decode($json_data, true)['books'];
-                    $recommended_books = array_slice($books, 0, 7);
+                    $recommended_books = array_slice($books, 0, 15);
 
                     foreach ($recommended_books as $book) {
                         echo '<div class="recomendation-card">';
