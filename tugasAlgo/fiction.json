@@ -1,0 +1,205 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "Laskar Pelangi",
+            "author": "Andrea Hirata",
+            "publisher": "Bentang Pustaka",
+            "year": 2005,
+            "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1489732961i/1362193.jpg",
+            "sinopsis": "Laskar Pelangi menceritakan kisah sepuluh anak dari Belitung yang bersekolah di SD Muhammadiyah Gantong, sebuah sekolah miskin yang terancam tutup karena kekurangan murid. Meski menghadapi berbagai keterbatasan, mereka tetap berjuang meraih pendidikan di bawah bimbingan guru mereka, Ibu Muslimah dan Bapak Harfan. Cerita ini menyoroti perjuangan, persahabatan, dan semangat mereka untuk belajar dalam menghadapi kesulitan hidup. ",
+            "genre": "fiction"
+        },
+        {
+            "id": 2,
+            "title": "Bumi Manusia",
+            "author": "Pramoedya Ananta Toer",
+            "publisher": "Hasta Mitra",
+            "year": 1980,
+            "image": "https://cdn.gramedia.com/uploads/items/bumi-manusia-edit.jpg",
+            "sinopsis": "Bumi Manusia mengisahkan Minke, seorang pribumi Jawa yang cerdas, pada masa kolonial Hindia Belanda, yang jatuh cinta pada Annelies, putri keturunan Belanda-Jawa. Kisah mereka penuh rintangan akibat perbedaan status sosial dan prasangka rasial, yang membuat Minke berjuang melawan ketidakadilan dan diskriminasi sistem kolonial. ",
+            "genre": "fiction"
+        },
+        {
+            "id": 3,
+            "title": "5cm",
+            "author": "Donny Dhirgantoro",
+            "publisher": "Gramadia",
+            "year": 2005,
+            "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/9786020524665_Sekuel_5cm-1.jpg",
+            "sinopsis": "Novel 5 cm menceritakan kisah lima sahabat—Arial, Riani, Zafran, Ian, dan Genta—yang telah menjalin persahabatan selama tujuh tahun. Mereka memutuskan untuk tidak berkomunikasi selama tiga bulan untuk mencari jati diri dan meninggalkan kebosanan. Setelah perpisahan itu, mereka kembali berkumpul dan melakukan pendakian ke Gunung Mahameru, puncak tertinggi di Jawa, sebagai simbol pencapaian mimpi dan penguatan kembali ikatan persahabatan mereka.",
+            "genre": "fiction"
+        },
+        {
+            "id": 4,
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "publisher": "Charles Scribner's Sons",
+            "year": 1925,
+            "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/products/512t1zz2t2.jpeg",
+            "sinopsis": "The Great Gatsby bercerita tentang Jay Gatsby, seorang miliarder misterius yang mengadakan pesta mewah di New York era 1920-an untuk memenangkan hati Daisy Buchanan, sepupunya dari narator, Nick Carraway. Kisah cinta segitiga ini menjadi tragis ketika kecelakaan mobil menyebabkan kematian dan Gatsby tewas dibunuh karena kesalahpahaman, menyoroti sisi gelap dan ketidakbahagiaan di balik kemewahan serta tema materialisme dan American Dream.",
+            "genre": "fiction"
+        },
+        {
+            "id": 5,
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "publisher": "J. B. Lippincott & Co.",
+            "year": 1960,
+            "image": "https://m.media-amazon.com/images/I/81O7u0dGaWL._AC_UF1000,1000_QL80_.jpg",
+            "sinopsis": "Diceritakan dari sudut pandang Scout Finch yang berusia enam tahun, novel ini mengisahkan ayahnya, Atticus Finch, seorang pengacara yang membela seorang pria kulit hitam yang dituduh melakukan kejahatan di kota kecil Alabama yang penuh prasangka. Ini adalah eksplorasi mendalam tentang keadilan, kelas sosial, dan hilangnya kepolosan.",
+            "genre": "fiction"
+        },
+        {
+            "id": 6,
+            "title": "1984",
+            "author": "George Orwell",
+            "publisher": "Secker & Warburg",
+            "year": 1949,
+            "image": "https://m.media-amazon.com/images/I/71wANojhEKL._AC_UF1000,1000_QL80_.jpg",
+            "sinopsis": "Winston Smith hidup di Oseania, sebuah negara yang diperintah oleh Partai totaliter yang dipimpin oleh \"Big Brother.\" Tugasnya adalah merevisi sejarah, namun ia mulai memberontak secara diam-diam. Ini adalah novel distopia tentang pengawasan pemerintah, manipulasi pikiran, dan bahaya totalitarianisme.",
+            "genre": "fiction"
+        },
+        {
+            "id": 7,
+            "title": "Dune",
+            "author": "Frank Herbert",
+            "publisher": "Chilton Books",
+            "year": 1965,
+            "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/picture_meta/2023/3/26/ih86gbr4urzmibs3ah49hq.jpg",
+            "sinopsis": "Paul Atreides dan keluarganya dikirim untuk mengelola planet gurun Arrakis, satu-satunya sumber rempah-rempah Melange—zat paling berharga di alam semesta. Novel fiksi ilmiah epik ini membahas politik, agama, ekologi, dan evolusi manusia.",
+            "genre": "fiction"
+        },
+        {
+            "id": 8,
+            "title": "The Lord of the Rings",
+            "author": "J.R.R. Tolkien",
+            "publisher": "George Allen & Unwin",
+            "year": 1954,
+            "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/9786020332284_The_Return_of_the_King_by_09J_R_R_Tolkien_doc.jpg",
+            "sinopsis": "Frodo Baggins, seorang hobbit, ditugaskan untuk menghancurkan Cincin Tunggal yang kuat di tempat ia dibuat, Mordor, sebelum Penguasa Kegelapan Sauron menggunakannya untuk menaklukkan Middle-earth. Kisah ini adalah perjalanan, persahabatan, dan pertempuran besar antara kebaikan dan kejahatan.",
+            "genre": "fiction"
+        },
+        {
+            "id": 9,
+            "title": "Gone Girl",
+            "author": "Gillian Flynn",
+            "publisher": "Crown Publishing Group",
+            "year": 2012,
+            "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1420576946i/15704174.jpg",
+            "sinopsis": "Pada hari ulang tahun pernikahan kelima, Amy Dunne menghilang, dan suaminya, Nick, menjadi tersangka utama. Saat polisi menyelidiki dan media massa merajalela, rahasia-rahasia gelap dalam pernikahan mereka terungkap. Ini adalah thriller psikologis yang penuh twist dan mendebarkan.",
+            "genre": "fiction"
+        },
+        {
+            "id": 10,
+            "title": "And Then There Were None",
+            "author": "Agatha Christie",
+            "publisher": "Collins Crime Club",
+            "year": 1939,
+            "image": "https://upload.wikimedia.org/wikipedia/en/2/26/And_Then_There_Were_None_US_First_Edition_Cover_1940.jpg",
+            "sinopsis": "Sepuluh orang asing diundang ke sebuah pulau terpencil. Mereka semua memiliki masa lalu yang kelam. Satu per satu, mereka dibunuh sesuai dengan sajak anak-anak. Ini adalah misteri klasik kamar tertutup yang menegangkan dari Ratu Kriminal.",
+            "genre": "fiction"
+        },
+        {
+            "id": 11,
+            "title": "A Thousand Splendid Suns",
+            "author": "Khaled Hosseini",
+            "publisher": "Riverhead Books",
+            "year": 2007,
+            "image": "https://m.media-amazon.com/images/I/A1alIcqdZfL._AC_UF1000,1000_QL80_.jpg",
+            "sinopsis": "Novel ini mengisahkan kehidupan dua wanita Afghanistan, Mariam dan Laila, yang nasibnya terjalin melalui pernikahan paksa dengan pria yang sama. Novel ini menyoroti kekuatan, ketahanan, dan persahabatan wanita di tengah konflik dan penindasan di Kabul.",
+            "genre": "fiction"
+        },
+        {
+            "id": 12,
+            "title": "Where the Crawdads Sing",
+            "author": "Delia Owens",
+            "publisher": "G.P. Putnam's Sons",
+            "year": 2018,
+            "image": "https://m.media-amazon.com/images/I/81F0NTrPdCL._AC_UF1000,1000_QL80_.jpg",
+            "sinopsis": "Kya Clark, dijuluki \"Gadis Rawa,\" dibesarkan dalam isolasi di rawa-rawa North Carolina. Ketika seorang pria lokal ditemukan tewas, Kya menjadi tersangka utama. Novel ini menggabungkan tema coming of age, misteri, dan keindahan/kekejaman alam.",
+            "genre": "fiction"
+        },
+        {
+            "id": 13,
+            "title": "The Secret History",
+            "author": "Donna Tartt",
+            "publisher": "Alfred A. Knopf",
+            "year": 1992,
+            "image": "https://cdn.waterstones.com/bookjackets/large/9780/1401/9780140167771.jpg",
+            "sinopsis": "Richard Papen bergabung dengan kelompok elit dan eksentrik mahasiswa Klasik di Vermont. Obsesi mereka terhadap filsafat kuno dan estetika segera membawa mereka ke dalam sebuah peristiwa tragis dan pembunuhan. Ini adalah novel gelap tentang moralitas, persahabatan beracun, dan konsekuensi ambisi intelektual.",
+            "genre": "fiction"
+        },
+        {
+            "id": 14,
+            "title": "The Handmaid's Tale",
+            "author": "Margaret Atwood",
+            "publisher": "McClelland and Stewart",
+            "year": 1985,
+            "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/product-metas/2mhtse2s6e.jpg",
+            "sinopsis": "Di masa depan distopia Republik Gilead, Offred adalah seorang Handmaid (Hamba Wanita) yang hanya memiliki fungsi untuk bereproduksi bagi komandan elit. Novel ini mengeksplorasi penindasan patriarkal, hilangnya hak-hak wanita, dan bahaya ekstremisme agama.",
+            "genre": "fiction"
+        },
+        {
+            "id": 15,
+            "title": "Brave New World",
+            "author": "Aldous Huxley",
+            "publisher": "Chatto & Windus",
+            "year": 1932,
+            "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/product-metas/bvw1-4n3o0.jpg",
+            "sinopsis": "Novel distopia ini berlatar di London tahun 2540 M, di mana masyarakat dikendalikan oleh obat penenang (Soma) dan sistem kasta genetik untuk memastikan stabilitas dan kebahagiaan buatan. Ini adalah kritik terhadap kontrol sosial melalui teknologi dan hilangnya individualitas.",
+            "genre": "fiction"
+        },
+        {
+            "id": 16,
+            "title": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "publisher": "T. Egerton, Whitehall",
+            "year": 1813,
+            "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/_4121.jpg",
+            "sinopsis": "Elizabeth Bennet yang cerdas dan berjiwa bebas berseteru dan kemudian jatuh cinta pada Tuan Darcy yang kaya dan sombong. Novel klasik ini adalah eksplorasi tentang cinta, status sosial, etiket, dan prasangka di kalangan bangsawan Inggris pada awal abad ke-19.",
+            "genre": "fiction"
+        },
+        {
+            "id": 17,
+            "title": "The Name of the Wind",
+            "author": "Patrick Rothfuss",
+            "publisher": "DAW Books",
+            "year": 2007,
+            "image": "https://m.media-amazon.com/images/I/91UzPegYyjL._AC_UF1000,1000_QL80_.jpg",
+            "sinopsis": "Novel fantasi epik ini menceritakan kisah Kvothe, musisi jenius, penyihir, dan petualang legendaris yang kini hidup menyamar sebagai pemilik penginapan sederhana. Ia menceritakan kisah masa mudanya, perjalanannya ke sekolah sihir, dan pencariannya akan kebenaran di balik masa lalunya.",
+            "genre": "fiction"
+        },
+        {
+            "id": 18,
+            "title": "The Kite Runner",
+            "author": "Khaled Hosseini",
+            "publisher": "Riverhead Books",
+            "year": 2003,
+            "image": "https://m.media-amazon.com/images/I/81IzbD2IiIL._AC_UF1000,1000_QL80_.jpg",
+            "sinopsis": "Amir, seorang pria Afghanistan kaya yang tinggal di Amerika, kembali ke tanah airnya untuk menebus pengkhianatan masa lalu yang ia lakukan terhadap sahabatnya, Hassan, bertahun-tahun sebelumnya. Novel ini adalah kisah tentang penebusan, persahabatan, dan kompleksitas sejarah Afghanistan.",
+            "genre": "fiction"
+        },
+        {
+            "id": 19,
+            "title": "Norwegian Wood",
+            "author": "Haruki Murakami",
+            "publisher": "Kodansha",
+            "year": 1987,
+            "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1713542603i/11297.jpg",
+            "sinopsis": "Toru Watanabe, seorang mahasiswa di Tokyo, mengingat kembali masa mudanya yang diwarnai oleh cinta, kehilangan, dan kesedihan setelah kematian sahabatnya. Novel ini adalah kisah yang melankolis dan introspektif tentang cinta pertama, seksualitas, dan tantangan kesehatan mental.",
+            "genre": "fiction"
+        },
+        {
+            "id": 20,
+            "title": "The Hitchhiker's Guide to the Galaxy",
+            "author": "Douglas Adams",
+            "publisher": "Pan Books",
+            "year": 1979,
+            "image": "https://upload.wikimedia.org/wikipedia/en/b/bd/H2G2_UK_front_cover.jpg",
+            "sinopsis": "Arthur Dent, seorang pria Inggris, diselamatkan oleh alien bernama Ford Prefect sesaat sebelum Bumi dihancurkan untuk pembangunan bypass antarbintang. Ini adalah komedi fiksi ilmiah absurd yang penuh dengan pertanyaan filosofis konyol tentang alam semesta.",
+            "genre": "fiction"
+        }
+
+    ]
+}

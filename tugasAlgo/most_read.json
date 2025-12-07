@@ -1,0 +1,104 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "publisher": "Chilton Books",
+      "year": 1965,
+      "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/picture_meta/2023/3/26/ih86gbr4urzmibs3ah49hq.jpg",
+      "sinopsis": "Paul Atreides dan keluarganya dikirim untuk mengelola planet gurun Arrakis, satu-satunya sumber rempah-rempah Melange—zat paling berharga di alam semesta. Novel fiksi ilmiah epik ini membahas politik, agama, ekologi, dan evolusi manusia.",
+      "genre": "fiction"
+    },
+    {
+      "id": 2,
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "publisher": "Crown Publishing Group",
+      "year": 2012,
+      "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1420576946i/15704174.jpg",
+      "sinopsis": "Pada hari ulang tahun pernikahan kelima, Amy Dunne menghilang, dan suaminya, Nick, menjadi tersangka utama. Saat polisi menyelidiki dan media massa merajalela, rahasia-rahasia gelap dalam pernikahan mereka terungkap. Ini adalah thriller psikologis yang penuh twist dan mendebarkan.",
+      "genre": "fiction"
+    },
+    {
+      "id": 3,
+      "title": "The Power Of Habit",
+      "author": "Charles Duhigg",
+      "publisher": "Kepustakaan Populer Gramedia",
+      "year": "2019",
+      "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/img20190902_16534294.jpg",
+      "sinopsis": "-",
+      "genre": "non-fiction"
+    },
+    {
+      "id": 4,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "publisher": "Gramedia Pustaka Utama",
+      "year": "2019",
+      "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/9786020633176_.Atomic_Habit.jpg",
+      "sinopsis": "-",
+      "genre": "non-fiction"
+    },
+    {
+      "id": 5,
+      "title": "Laskar Pelangi",
+      "author": "Andrea Hirata",
+      "publisher": "Bentang Pustaka",
+      "year": 2005,
+      "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1489732961i/1362193.jpg",
+      "sinopsis": "Laskar Pelangi menceritakan kisah sepuluh anak dari Belitung yang bersekolah di SD Muhammadiyah Gantong, sebuah sekolah miskin yang terancam tutup karena kekurangan murid. Meski menghadapi berbagai keterbatasan, mereka tetap berjuang meraih pendidikan di bawah bimbingan guru mereka, Ibu Muslimah dan Bapak Harfan. Cerita ini menyoroti perjuangan, persahabatan, dan semangat mereka untuk belajar dalam menghadapi kesulitan hidup. ",
+      "genre": "fiction"
+    },
+    {
+      "id": 6,
+      "title": "Bumi Manusia",
+      "author": "Pramoedya Ananta Toer",
+      "publisher": "Hasta Mitra",
+      "year": 1980,
+      "image": "https://cdn.gramedia.com/uploads/items/bumi-manusia-edit.jpg",
+      "sinopsis": "Bumi Manusia mengisahkan Minke, seorang pribumi Jawa yang cerdas, pada masa kolonial Hindia Belanda, yang jatuh cinta pada Annelies, putri keturunan Belanda-Jawa. Kisah mereka penuh rintangan akibat perbedaan status sosial dan prasangka rasial, yang membuat Minke berjuang melawan ketidakadilan dan diskriminasi sistem kolonial. ",
+      "genre": "fiction"
+    },
+    {
+      "id": 7,
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert T. Kiyosaki",
+      "publisher": "Gramedia Pustaka Utama",
+      "year": "2016",
+      "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/9786020333175_rich-dad-poor-dad-_edisi-revisi_.jpg",
+      "sinopsis": "-",
+      "genre": "non-fiction"      
+    },
+    {
+      "id": 8,
+      "title": "The 7 Habits of Highly Effective People",
+      "author": "Stephen R. Covey",
+      "publisher": "Dunamis Publishing",
+      "year": "2015",
+      "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/product-metas/7-i-thiefi.jpg",
+      "sinopsis": "-",
+      "genre": "non-fiction"
+    },
+    {
+      "id": 9,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "publisher": "Charles Scribner's Sons",
+      "year": 1925,
+      "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/products/512t1zz2t2.jpeg",
+      "sinopsis": "The Great Gatsby bercerita tentang Jay Gatsby, seorang miliarder misterius yang mengadakan pesta mewah di New York era 1920-an untuk memenangkan hati Daisy Buchanan, sepupunya dari narator, Nick Carraway. Kisah cinta segitiga ini menjadi tragis ketika kecelakaan mobil menyebabkan kematian dan Gatsby tewas dibunuh karena kesalahpahaman, menyoroti sisi gelap dan ketidakbahagiaan di balik kemewahan serta tema materialisme dan American Dream.",
+      "genre": "fiction"
+    },
+    {
+      "id": 10,
+      "title": "You Do You: Discovering Life through Experiments & Self-Awareness",
+      "author": "Fellexandro Ruby",
+      "publisher": "Gramedia Pustaka Utama",
+      "year": "2020",
+      "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/picture_meta/2023/6/16/y3sd5cbky6xx4pdkipmeic.jpeg",
+      "sinopsis": "-",
+      "genre": "non-fiction"
+    }
+  ]
+}

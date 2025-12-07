@@ -7,7 +7,8 @@
       "publisher": "Kepustakaan Populer Gramedia",
       "year": "2021",
       "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/9786024816315_Wabah_dan_Pandemi_spot_uv-1.jpg",
-      "sinopsis":"-"
+      "sinopsis":"-",
+      "genre": "non-fiction"
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "publisher": "Elex Media Komputindo",
       "year": "2025",
       "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/product-metas/eulnc295a-.jpg",
-      "sinopsis": "-"
+      "sinopsis": "-",
+      "genre": "non-fiction"
     },
     {
       "id": 3,
@@ -25,7 +27,8 @@
       "publisher": "Flatiron Books",
       "year": "2019",
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/38/Bitcoin_Billionaires.jpg/250px-Bitcoin_Billionaires.jpg",
-      "sinopsis": "-"
+      "sinopsis": "-",
+      "genre": "non-fiction"
     },
     {
       "id": 4,
@@ -34,7 +37,8 @@
       "publisher": "Gramedia Pustaka Utama",
       "year": "2016",
       "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/9786020333175_rich-dad-poor-dad-_edisi-revisi_.jpg",
-      "sinopsis": "-"
+      "sinopsis": "-",
+      "genre": "non-fiction"
     },
     {
       "id": 5,
@@ -43,7 +47,8 @@
       "publisher": "Gramedia Pustaka Utama",
       "year": "2019",
       "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/9786020622279_think_and_gro.jpg",
-      "sinopsis": "-"
+      "sinopsis": "-",
+      "genre": "non-fiction"
     },
     {
       "id": 6,
@@ -52,7 +57,8 @@
       "publisher": "PENERBIT BACA",
       "year": "2021",
       "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/psychology_of_money.jfif.png",
-      "sinopsis": "-"
+      "sinopsis": "-",
+      "genre": "non-fiction"
     },
     {
       "id": 7,
@@ -61,7 +67,8 @@
       "publisher": "CV. Cipta Media Edukasi",
       "year": "2020",
       "image": "https://bintangpusnas.perpusnas.go.id/api25/public/api/get-image/978-623-290-097-4.jpg",
-      "sinopsis": "-"
+      "sinopsis": "-",
+      "genre": "non-fiction"
     },
     {
       "id": 8,
@@ -70,7 +77,8 @@
       "publisher": "Penebar Media Pustaka",
       "year": "2018",
       "image": "https://books.google.co.id/books/publisher/content?id=w1nUDwAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72pYVmYwAWqC8DtX3IwgiOdpHM-2QKIETNk-gMTQtXEFxCkm_HJRLjw2R24CIPwydBht035_i-L9c6dT7l-8h9eVTVh-7NKo3sWE6LKeEhzyvWJViVX7Iu_uCahYuwcT8ozqXDv",
-      "sinopsis": "-"
+      "sinopsis": "-",
+      "genre": "non-fiction"
     },
     {
       "id": 9,
@@ -79,7 +87,8 @@
       "publisher": "Gramedia Pustaka Utama",
       "year": "2019",
       "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/9786020633176_.Atomic_Habit.jpg",
-      "sinopsis": "-"
+      "sinopsis": "-",
+      "genre": "non-fiction"
     },
     {
       "id": 10,
@@ -88,7 +97,8 @@
       "publisher": "Kepustakaan Populer Gramedia",
       "year": "2019",
       "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/img20190902_16534294.jpg",
-      "sinopsis": "-"
+      "sinopsis": "-",
+      "genre": "non-fiction"
     },
     {
       "id": 11,
@@ -97,7 +107,8 @@
       "publisher": "Bhuana Ilmu Populer",
       "year": "2021",
       "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/The_5am_Club_Depan.jpg",
-      "sinopsis": "-"
+      "sinopsis": "-",
+      "genre": "non-fiction"
     },
     {
       "id": 12,
@@ -106,7 +117,8 @@
       "publisher": "Gramedia Pustaka Utama",
       "year": "2020",
       "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/picture_meta/2023/6/16/y3sd5cbky6xx4pdkipmeic.jpeg",
-      "sinopsis": "-"
+      "sinopsis": "-",
+      "genre": "non-fiction"
     },
     {
       "id": 13,
@@ -115,7 +127,8 @@
       "publisher": "Penerbit Buku Kompas",
       "year": "2023",
       "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/filosofi_teras_hc.png",
-      "sinopsis": "-"
+      "sinopsis": "-",
+      "genre": "non-fiction"
     },
     {
       "id": 14,
@@ -124,7 +137,8 @@
       "publisher": "Gramedia Widiasarana Indonesia",
       "year": "2022",
       "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/sebuah_seni_untuk_bersikap_bodo_amat_hard_cover_font_revisi-1.jpg",
-      "sinopsis": "-"
+      "sinopsis": "-",
+      "genre": "non-fiction"
     },
     {
       "id": 15,
@@ -133,7 +147,8 @@
       "publisher": "Elex Media Komputindo",
       "year": "2020",
       "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/9786230020780_Cover_Deep_Work.jpg",
-      "sinopsis": "-"
+      "sinopsis": "-",
+      "genre": "non-fiction"
     },
     {
       "id": 16,
@@ -142,7 +157,8 @@
       "publisher": "Penguin Uk",
       "year": "2025",
       "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/product-metas/zrr4ir1260.jpg",
-      "sinopsis": "-"
+      "sinopsis": "-",
+      "genre": "non-fiction"
     },
     {
       "id": 17,
@@ -151,7 +167,8 @@
       "publisher": "Dunamis Publishing",
       "year": "2015",
       "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/product-metas/7-i-thiefi.jpg",
-      "sinopsis": "-"
+      "sinopsis": "-",
+      "genre": "non-fiction"
     },
     {
       "id": 18,
@@ -160,7 +177,8 @@
       "publisher": "Mic Publishing",
       "year": "2003",
       "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/9786028482851_The-Magic-Of-.jpg",
-      "sinopsis": "-"
+      "sinopsis": "-",
+      "genre": "non-fiction"
     },
     {
       "id": 19,
@@ -169,7 +187,8 @@
       "publisher": "Kepustakaan Populer Gramedia",
       "year": "2020",
       "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/9786024813659_The_Things_You_Can_See_Only_When_You_Slow_Down-1.jpg",
-      "sinopsis": "-"
+      "sinopsis": "-",
+      "genre": "non-fiction"
     },
     {
       "id": 20,
@@ -178,7 +197,8 @@
       "publisher": "Bhuana Ilmu Populer",
       "year": "2021",
       "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/9786230405761.jpeg",
-      "sinopsis": "-"
+      "sinopsis": "-",
+      "genre": "non-fiction"
     }
   ]
 }

@@ -74,6 +74,7 @@ nav div .menu:hover {
 
 .recomendation {
     margin-top: 40px;
+    padding-bottom: 10px;
 }
 
 .recomendation h1 {
@@ -88,6 +89,7 @@ nav div .menu:hover {
     gap: 20px;
     padding-bottom: 15px;
     overflow-x: auto;
+    padding-top: 15px;
 }
 
 .recomendation-card {
@@ -99,10 +101,13 @@ nav div .menu:hover {
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    box-shadow: 0.4em 0.3em 0.7em 0.3em darkgray;
+    margin-left: 7px;
 }
 
 .recomendation-card:hover {
-    transform: translateY(-5px);
+    transform: scale(1.035, 1.035);
+    
 }
 
 .recomendation-card img {

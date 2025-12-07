@@ -44,10 +44,10 @@ if(!isset($_SESSION['email'])){
         <p>Ini adalah halaman utama perpustakaan Anda.</p>
 
         <section class="recomendation" id="recomendation">
-            <h1>Book recomendation</h1>
+            <h1>Fiction</h1>
             <div class="recomendation-content">
                 <?php
-                    $json_data = file_get_contents('novel.json');
+                    $json_data = file_get_contents('fiction.json');
                     $books = json_decode($json_data, true)['books'];
                     $recommended_books = array_slice($books, 0, 15);
 
@@ -60,6 +60,56 @@ if(!isset($_SESSION['email'])){
             </div>
         </section>
 
+        <section class="recomendation" id="recomendation">
+            <h1>Non-Fiction</h1>
+            <div class="recomendation-content">
+                <?php
+                    $json_data = file_get_contents('non_fiction.json');
+                    $books = json_decode($json_data, true)['books'];
+                    $recommended_books = array_slice($books, 0, 15);
+
+                    foreach ($recommended_books as $book) {
+                        echo '<div class="recomendation-card">';
+                        echo '<img src="' . htmlspecialchars($book['image']) . '" alt="' . htmlspecialchars($book['title']) . '">';
+                        echo '</div>';
+                    }
+                ?>
+            </div>
+        </section>
+
+        <section class="recomendation" id="recomendation">
+            <h1>Most Read </h1>
+            <div class="recomendation-content">
+                <?php
+                    $json_data = file_get_contents('most_read.json');
+                    $books = json_decode($json_data, true)['books'];
+                    $recommended_books = array_slice($books, 0, 15);
+
+                    foreach ($recommended_books as $book) {
+                        echo '<div class="recomendation-card">';
+                        echo '<img src="' . htmlspecialchars($book['image']) . '" alt="' . htmlspecialchars($book['title']) . '">';
+                        echo '</div>';
+                    }
+                ?>
+            </div>
+        </section>
+
+        <section class="recomendation" id="recomendation">
+            <h1>Your Next Read</h1>
+            <div class="recomendation-content">
+                <?php
+                    $json_data = file_get_contents('next_read.json');
+                    $books = json_decode($json_data, true)['books'];
+                    $recommended_books = array_slice($books, 0, 15);
+
+                    foreach ($recommended_books as $book) {
+                        echo '<div class="recomendation-card">';
+                        echo '<img src="' . htmlspecialchars($book['image']) . '" alt="' . htmlspecialchars($book['title']) . '">';
+                        echo '</div>';
+                    }
+                ?>
+            </div>
+        </section>
     </main>
     <!-- Main Content End -->
 </body>
