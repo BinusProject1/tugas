@@ -36,8 +36,86 @@ if(!isset($_SESSION['email'])){
      </nav>
     <!-- side navbar end -->
     <!-- serch bar start -->
-    <div class="search"><i class="material-icons">search</i>
-    </div>
+    <main class="content">
+        <div class="search-filter-container">
+            <form action="book.php" method="get" class="search-form">
+                <div class="search">
+                    <i class="material-icons">search</i>
+                    <input type="text" name="search" placeholder="Search..." value="<?= htmlspecialchars($_GET['search'] ?? '') ?>">
+                </div>
+            </form>
+            <div class="filter-container">
+                <button class="filter-button" id="filter-btn">
+                    <i class="material-icons">filter_list</i>
+                    <span>Filter</span>
+                </button>
+                <div class="filter-dropdown" id="filter-dropdown">
+                    <a href="?search=<?= htmlspecialchars($_GET['search'] ?? '') ?>&sort=title_asc">Titel (A-Z)</a>
+                    <a href="?search=<?= htmlspecialchars($_GET['search'] ?? '') ?>&sort=year_desc">Year of Publication(Latest)</a>
+                    <a href="?search=<?= htmlspecialchars($_GET['search'] ?? '') ?>&sort=year_asc">Year of Publication(Latest)</a>
+                </div>
+            </div>
+        </div>
     <!-- serch bar end -->
+    
+    <!-- all book show -->
+    <div class="book-container">
+        <?php
+            // Load and decode JSON files
+            $novel_data = json_decode(file_get_contents('fiction.json'), true);
+            $knowledge_data = json_decode(file_get_contents('non_fiction.json'), true);
+
+            // Merge books from both files
+            $all_books = array_merge($novel_data['books'], $knowledge_data['books']);
+
+            // Filter books based on search query
+            $search_query = strtolower(trim($_GET['search'] ?? ''));
+            $sort_option = $_GET['sort'] ?? '';
+
+            $filtered_books = $all_books;
+
+            if (!empty($search_query)) {
+                $filtered_books = array_filter($all_books, function($book) use ($search_query) {
+                    return str_contains(strtolower($book['title']), $search_query) || str_contains(strtolower($book['author']), $search_query);
+                });
+            }
+
+            // Sort books based on filter option
+            if ($sort_option) {
+                usort($filtered_books, function($a, $b) use ($sort_option) {
+                    if ($sort_option === 'title_asc') {
+                        return strcmp($a['title'], $b['title']);
+                    }
+                    if ($sort_option === 'year_asc') {
+                        return $a['year'] <=> $b['year'];
+                    }
+                    if ($sort_option === 'year_desc') {
+                        return $b['year'] <=> $a['year'];
+                    }
+                    return 0;
+                });
+            }
+
+            // Display books
+            if (count($filtered_books) > 0) {
+                foreach ($filtered_books as $book) {
+                    echo '<div class="book-card">';
+                    echo '<img src="' . htmlspecialchars($book['image']) . '" alt="' . htmlspecialchars($book['title']) . '">';
+                    echo '<div class="book-info">';
+                    echo '<h3>' . htmlspecialchars($book['title']) . '</h3>';
+                    echo '<p>' . htmlspecialchars($book['author']) . '</p>';
+                    echo '</div>';
+                    echo '</div>';
+                }
+            } else {
+                echo '<p class="no-results">No books found./p>';
+                echo '<p class="no-results">Tidak ada buku yang ditemukan.</p>';
+            }
+        ?>
+    </div>
+    <!-- all book show -->
+    </main>
+    
+    <script src="login/login.js"></script>
 </body>
 </html>
