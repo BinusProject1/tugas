@@ -38,12 +38,13 @@ nav .profile .material-icons {
     font-size: 80px;
     color: #fff;
 }
-nav .profile h1{
+
+nav .profile h1 {
     font-size: 1.5rem;
     color: #fff;
 }
 
-nav .profile .detail{
+nav .profile .detail {
     font-size: 0.8rem;
     color: #fff;
 }
@@ -90,13 +91,13 @@ nav div .menu:hover {
 }
 
 .recomendation-card {
-    flex: 0 0 160px;
-    width: 160px;
-    height: 240px;
+    flex: 0 0 180px;
+    width: 180px;
+    height: 270px;
     background-color: #f9f9f9;
     border: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 

@@ -25,8 +25,8 @@ if(!isset($_SESSION['email'])){
             <a class="detail" href="profile.php">see profile</a>
         </div>
         <div>
-            <a class="menu" href="#">HOME</a>
-            <a class="menu" href="#">Book</a>
+            <a class="menu" href="user_page.php">HOME</a>
+            <a class="menu" href="book.php">Book</a>
             <a class="menu" href="#">History</a>
             <a class="menu" href="#">Finacial</a>
         </div>

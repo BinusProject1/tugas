@@ -13,6 +13,7 @@ html {
 body {
     background: #fff;
 }
+
 /* side bar style */
 nav {
     position: fixed;
@@ -38,12 +39,13 @@ nav .profile .material-icons {
     font-size: 80px;
     color: #fff;
 }
-nav .profile h1{
+
+nav .profile h1 {
     font-size: 1.5rem;
     color: #fff;
 }
 
-nav .profile .detail{
+nav .profile .detail {
     font-size: 0.8rem;
     color: #fff;
 }
@@ -65,21 +67,26 @@ nav div .menu:hover {
     background: #0059b3;
     padding-left: 35px;
 }
+
 /* serch bar stye */
 
-.search{
+.search {
     display: flex;
+    align-items: center;
     z-index: 3;
     position: relative;
-    justify-content: center;
+    justify-content: start;
     width: 30%;
     min-height: 50px;
-    background: #dad7d7;
-    border: 1px solid transparent;
+    background: #c9c8c8ff;
     box-shadow: none;
     border-radius: 26px;
-    margin: 30px 620px;
+    margin: 30px auto;
+    padding-left: 20px;
 }
 
 /* search logo */
-
+.search i {
+    color: #333;
+    font-size: 20px;
+}
