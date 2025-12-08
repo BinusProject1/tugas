@@ -31,7 +31,7 @@ if(!isset($_SESSION['email'])){
             <a class="menu" href="#">Finacial</a>
         </div>
         <div>
-            <a class="menu" onclick="window.location.href='login/logout.php'">LogOut</a>
+            <a class="menu" onclick="window.location.href='logout.php'">LogOut</a>
         </div>
      </nav>
     <!-- side navbar end -->
@@ -64,6 +64,8 @@ if(!isset($_SESSION['email'])){
             // Load and decode JSON files
             $novel_data = json_decode(file_get_contents('fiction.json'), true);
             $knowledge_data = json_decode(file_get_contents('non_fiction.json'), true);
+            $next_data = json_decode(file_get_contents('next_read.json'), true);
+            $most_data = json_decode(file_get_contents('most_read.json'), true);
 
             // Merge books from both files
             $all_books = array_merge($novel_data['books'], $knowledge_data['books']);
