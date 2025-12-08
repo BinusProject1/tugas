@@ -135,13 +135,13 @@ nav div .menu:hover {
 
 .book-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0.4em 0.3em 0.7em 0.3em darkgray;
 }
 
 .book-card img {
-    width: 100%;
+    width: 180px;
     height: 270px;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .book-card .book-info {

@@ -51,7 +51,7 @@ if(!isset($_SESSION['email'])){
                 </button>
                 <div class="filter-dropdown" id="filter-dropdown">
                     <a href="?search=<?= htmlspecialchars($_GET['search'] ?? '') ?>&sort=title_asc">Titel (A-Z)</a>
-                    <a href="?search=<?= htmlspecialchars($_GET['search'] ?? '') ?>&sort=year_desc">Year of Publication(Latest)</a>
+                    <a href="?search=<?= htmlspecialchars($_GET['search'] ?? '') ?>&sort=year_desc">Year of Publication(Newest)</a>
                     <a href="?search=<?= htmlspecialchars($_GET['search'] ?? '') ?>&sort=year_asc">Year of Publication(Latest)</a>
                 </div>
             </div>

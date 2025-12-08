@@ -20,7 +20,7 @@ if(!isset($_SESSION['email'])){
 </head>
 <body>
     <!-- side navbar start -->
-     <nav>
+    <nav>
         <div class="profile">
             <i class="material-icons">account_circle</i>
             <h1><?= $_SESSION['name']; ?></h1>
@@ -35,7 +35,7 @@ if(!isset($_SESSION['email'])){
         <div>
             <a class="menu" onclick="window.location.href='login/logout.php'">LogOut</a>
         </div>
-     </nav>
+    </nav>
     <!-- side navbar end -->
     
     <!-- Main Content Start -->
