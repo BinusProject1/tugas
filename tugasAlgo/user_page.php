@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+include_once 'navbar.php';
 if(!isset($_SESSION['email'])){
     header("location: login/login.php");
     exit();
@@ -20,22 +21,7 @@ if(!isset($_SESSION['email'])){
 </head>
 <body>
     <!-- side navbar start -->
-    <nav>
-        <div class="profile">
-            <i class="material-icons">account_circle</i>
-            <h1><?= $_SESSION['name']; ?></h1>
-            <a class="detail" href="profile.php">see profile</a>
-        </div>
-        <div>
-            <a class="menu" href="#">HOME</a>
-            <a class="menu" href="book.php">Book</a>
-            <a class="menu" href="#">History</a>
-            <a class="menu" href="#">Finacial</a>
-        </div>
-        <div>
-            <a class="menu" onclick="window.location.href='login/logout.php'">LogOut</a>
-        </div>
-    </nav>
+    <?php generate_navbar('HOME'); ?>
     <!-- side navbar end -->
     
     <!-- Main Content Start -->
@@ -52,9 +38,11 @@ if(!isset($_SESSION['email'])){
                     $recommended_books = array_slice($books, 0, 15);
 
                     foreach ($recommended_books as $book) {
+                        echo '<a href="book_detail.php?id=' . urlencode($book['id']) . '">';
                         echo '<div class="recomendation-card">';
                         echo '<img src="' . htmlspecialchars($book['image']) . '" alt="' . htmlspecialchars($book['title']) . '">';
                         echo '</div>';
+                        echo '</a>';
                     }
                 ?>
             </div>
@@ -69,9 +57,11 @@ if(!isset($_SESSION['email'])){
                     $recommended_books = array_slice($books, 0, 15);
 
                     foreach ($recommended_books as $book) {
+                        echo '<a href="book_detail.php?id=' . urlencode($book['id']) . '">';
                         echo '<div class="recomendation-card">';
                         echo '<img src="' . htmlspecialchars($book['image']) . '" alt="' . htmlspecialchars($book['title']) . '">';
                         echo '</div>';
+                        echo '</a>';
                     }
                 ?>
             </div>
@@ -86,9 +76,11 @@ if(!isset($_SESSION['email'])){
                     $recommended_books = array_slice($books, 0, 15);
 
                     foreach ($recommended_books as $book) {
+                        echo '<a href="book_detail.php?id=' . urlencode($book['id']) . '">';
                         echo '<div class="recomendation-card">';
                         echo '<img src="' . htmlspecialchars($book['image']) . '" alt="' . htmlspecialchars($book['title']) . '">';
                         echo '</div>';
+                        echo '</a>';
                     }
                 ?>
             </div>
@@ -103,9 +95,11 @@ if(!isset($_SESSION['email'])){
                     $recommended_books = array_slice($books, 0, 15);
 
                     foreach ($recommended_books as $book) {
+                        echo '<a href="book_detail.php?id=' . urlencode($book['id']) . '">';
                         echo '<div class="recomendation-card">';
                         echo '<img src="' . htmlspecialchars($book['image']) . '" alt="' . htmlspecialchars($book['title']) . '">';
                         echo '</div>';
+                        echo '</a>';
                     }
                 ?>
             </div>

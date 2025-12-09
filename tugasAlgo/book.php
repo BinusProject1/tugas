@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+include_once 'navbar.php';
 if(!isset($_SESSION['email'])){
     header("location: login/login.php");
     exit();
@@ -18,22 +19,7 @@ if(!isset($_SESSION['email'])){
 </head>
 <body>
     <!-- side navbar start -->
-     <nav>
-        <div class="profile">
-            <i class="material-icons">account_circle</i>
-            <h1><?= $_SESSION['name']; ?></h1>
-            <a class="detail" href="profile.php">see profile</a>
-        </div>
-        <div>
-            <a class="menu" href="user_page.php">HOME</a>
-            <a class="menu" href="book.php">Book</a>
-            <a class="menu" href="#">History</a>
-            <a class="menu" href="#">Finacial</a>
-        </div>
-        <div>
-            <a class="menu" onclick="window.location.href='logout.php'">LogOut</a>
-        </div>
-     </nav>
+     <?php generate_navbar('Book'); ?>
     <!-- side navbar end -->
     <!-- serch bar start -->
     <main class="content">
@@ -101,6 +87,7 @@ if(!isset($_SESSION['email'])){
             // Display books
             if (count($filtered_books) > 0) {
                 foreach ($filtered_books as $book) {
+                    echo '<a href="book_detail.php?id=' . urlencode($book['id']) . '" class="book-card-link">';
                     echo '<div class="book-card">';
                     echo '<img src="' . htmlspecialchars($book['image']) . '" alt="' . htmlspecialchars($book['title']) . '">';
                     echo '<div class="book-info">';
@@ -108,6 +95,7 @@ if(!isset($_SESSION['email'])){
                     echo '<p>' . htmlspecialchars($book['author']) . '</p>';
                     echo '</div>';
                     echo '</div>';
+                    echo '</a>';
                 }
             } else {
                 echo '<p class="no-results">No books found./p>';

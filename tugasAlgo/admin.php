@@ -9,6 +9,7 @@ $sql ="SELECT id, name, email, role FROM users";
 $result = mysqli_query($conn, $sql); 
 
 session_start();
+include_once 'navbar.php';
 if(!isset($_SESSION['email'])){
     header("location: login/login.php");
     exit();
@@ -28,22 +29,7 @@ if(!isset($_SESSION['email'])){
 </head>
 <body>
     <!-- side navbar start -->
-    <nav>
-        <div class="profile">
-            <i class="material-icons">account_circle</i>
-            <h1><?php echo htmlspecialchars($_SESSION['name']); ?></h1>
-            <a class="detail" href="profile.php">see profile</a>
-        </div>
-        <div>
-            <a class="menu" href="#">HOME</a>
-            <a class="menu" href="#">Book</a>
-            <a class="menu" href="#">History</a>
-            <a class="menu" href="#">Finacial</a>
-        </div>
-        <div>
-            <a class="menu" onclick="window.location.href='login/logout.php'">LogOut</a>
-        </div>
-    </nav>
+    <?php generate_navbar('HOME', true); ?>
     <!-- side navbar end -->
     
     <!-- Main Content Start -->
