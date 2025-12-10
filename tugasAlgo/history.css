@@ -99,7 +99,7 @@ nav div .menu:hover {
 
 .book-card {
     background-color: #fff;
-    border-radius: 8px;
+    border-radius: 0 0 8px 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s;

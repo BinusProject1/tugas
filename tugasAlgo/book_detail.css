@@ -78,13 +78,14 @@ nav .menu.active {
     width: calc(100% - 250px);
 }
 
-.book-detail-container {
+.book-detail-container, .other-book {
     display: flex;
     background-color: #fff;
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     gap: 2rem;
+    margin: 4rem 0rem;
 }
 
 .book-image {
@@ -95,7 +96,6 @@ nav .menu.active {
 .book-image img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
 }
 
 .book-details {
@@ -142,7 +142,7 @@ nav .menu.active {
     text-align: center;
     font-size: 1.2rem;
     color: #888;
-    margin-top: 2rem;
+    margin-top: 2rem; 
 }
 
 .borrow-success-message {
@@ -153,4 +153,18 @@ nav .menu.active {
     border-radius: 5px;
     margin-bottom: 1.5rem;
     text-align: center;
+}
+
+.other-book {
+    display: flex;
+    flex-direction: column;
+}
+
+.recomendation-img img{
+    width: 180px;
+    height: 270px;
+}
+
+.recomendation-img:hover {
+    transform: scale(1.035, 1.035);
 }

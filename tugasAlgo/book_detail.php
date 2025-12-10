@@ -38,9 +38,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['borrow'])) {
 
         if (!$is_in_history) {
             $_SESSION['history'][] = $book_to_borrow;
-            $borrow_message = "Buku '" . htmlspecialchars($book_to_borrow['title']) . "' berhasil ditambahkan ke riwayat peminjaman Anda!";
+            $borrow_message ="Successfully added to you borrowing history.";
         } else {
-            $borrow_message = "Buku ini sudah ada di riwayat peminjaman Anda.";
+            $borrow_message = "This book is already in your borrowing history.";
         }
     }
 }
@@ -80,12 +80,25 @@ if ($book_id) {
                     <h2>by <?= htmlspecialchars($book['author']) ?></h2>
                     <p><strong>Publisher:</strong> <?= htmlspecialchars($book['publisher']) ?></p>
                     <p><strong>Year:</strong> <?= htmlspecialchars($book['year']) ?></p>
-                    <h3>Synopsis</h3>
+                    <strong>Synopsis:</strong>
                     <p class="synopsis"><?= nl2br(htmlspecialchars($book['sinopsis'])) ?></p>
                     <form method="post" action="book_detail.php?id=<?= urlencode($book['id']) ?>">
                         <input type="hidden" name="book_id" value="<?= htmlspecialchars($book['id']) ?>">
                         <button type="submit" name="borrow" class="borrow-btn">Pinjam Buku</button>
                     </form>
+                </div>
+            </div>
+            <div class="other-book">
+                <div class="head-title">
+                    <h2>
+                        Other books
+                    </h2>
+                </div>
+                <div class="recomendation-card">
+                    <div class="recomendation-img">
+                        <img src="https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/picture_meta/2023/3/26/ih86gbr4urzmibs3ah49hq.jpg">
+                        <img src="https://cdn.gramedia.com/uploads/items/bumi-manusia-edit.jpg" alt="">                        
+                    </div>
                 </div>
             </div>
         <?php else: ?>

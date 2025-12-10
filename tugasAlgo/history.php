@@ -8,9 +8,6 @@ if(!isset($_SESSION['email'])){
 }
 ?>
 
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,12 +19,12 @@ if(!isset($_SESSION['email'])){
 </head>
 <body>
     <!-- side navbar start -->
-     <?php generate_navbar('History'); ?>
+    <?php generate_navbar('History'); ?>
     <!-- side navbar end -->
 
     <!-- Main Content Start -->
     <main class="content">
-        <h1>Riwayat Peminjaman</h1>
+        <h1>Borrowing History</h1>
 
         <div class="history-container">
             <?php
