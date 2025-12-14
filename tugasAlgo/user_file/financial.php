@@ -107,9 +107,9 @@ if (file_exists($history_file)) {
                 <table>
                     <thead>
                         <tr>
-                            <th>Judul Buku</th>
-                            <th>Jatuh Tempo</th>
-                            <th>Denda</th>
+                            <th>Title</th>
+                            <th>Due Date</th>
+                            <th>Fines</th>
                         </tr>
                     </thead>
                     <tbody>

@@ -47,8 +47,8 @@ if(!isset($_SESSION['email'])){
                             <img src="<?= htmlspecialchars($record['book_image'] ?? 'https://via.placeholder.com/150x220.png?text=No+Image') ?>" alt="<?= htmlspecialchars($record['book_title']) ?>" class="book-cover">
                             <div class="book-info">
                                 <h3><?= htmlspecialchars($record['book_title']) ?></h3>
-                                <p>Dipinjam: <?= date('d M Y', strtotime($record['borrow_date'])) ?></p>
-                                <p>Jatuh Tempo: <?= date('d M Y', strtotime($record['due_date'])) ?></p>
+                                <p>Borrowed: <?= date('d M Y', strtotime($record['borrow_date'])) ?></p>
+                                <p>Due Date: <?= date('d M Y', strtotime($record['due_date'])) ?></p>
                                 <p>Status: <span class="<?= $record['status'] == 'borrowed' && strtotime('now') > strtotime($record['due_date']) ? 'overdue' : '' ?>"><?= $record['status'] == 'borrowed' && strtotime('now') > strtotime($record['due_date']) ? 'OVERDUE' : strtoupper($record['status']) ?></span></p>
                             </div>
                         </div>

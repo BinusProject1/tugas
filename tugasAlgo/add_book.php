@@ -111,45 +111,45 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <main class="content">
         <div class="form-container">
-            <h1>Tambah Buku Baru</h1>
+            <h1>Add New Book</h1>
             <?php if ($error): ?>
                 <div class="message error"><?= htmlspecialchars($error) ?></div>
             <?php endif; ?>
 
             <form action="add_book.php" method="post">
                 <div class="form-group">
-                    <label for="title">Judul</label>
+                    <label for="title">Title</label>
                     <input type="text" id="title" name="title" required>
                 </div>
                 <div class="form-group">
-                    <label for="author">Penulis</label>
+                    <label for="author">Author</label>
                     <input type="text" id="author" name="author" required>
                 </div>
                 <div class="form-group">
-                    <label for="publisher">Penerbit</label>
+                    <label for="publisher">Publisher</label>
                     <input type="text" id="publisher" name="publisher" required>
                 </div>
                 <div class="form-group">
-                    <label for="year">Tahun Terbit</label>
+                    <label for="year">Year of Publication</label>
                     <input type="number" id="year" name="year" required>
                 </div>
                 <div class="form-group">
-                    <label for="image">URL Gambar</label>
+                    <label for="image">Image URL</label>
                     <input type="url" id="image" name="image" required>
                 </div>
                 <div class="form-group">
-                    <label for="sinopsis">Sinopsis</label>
+                    <label for="sinopsis">Synopsis</label>
                     <textarea id="sinopsis" name="sinopsis" required></textarea>
                 </div>
                 <div class="form-group">
                     <label for="genre">Genre</label>
                     <select id="genre" name="genre" required>
-                        <option value="">Pilih Genre</option>
+                        <option value="">Select Genre</option>
                         <option value="fiction">Fiction</option>
                         <option value="non_fiction">Non-Fiction</option>
                     </select>
                 </div>
-                <button type="submit" class="submit-btn">Tambah Buku</button>
+                <button type="submit" class="submit-btn">Add Book</button>
             </form>
         </div>
     </main>
