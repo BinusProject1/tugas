@@ -131,12 +131,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['return'])) {
                     <?php if ($is_borrowed_by_user): ?>
                         <form method="post" action="book_detail.php?id=<?= urlencode($book['id']) ?>">
                             <input type="hidden" name="book_id" value="<?= htmlspecialchars($book['id']) ?>">
-                            <button type="submit" name="return" class="return-btn">Kembalikan Buku</button>
+                            <button type="submit" name="return" class="return-btn">Return</button>
                         </form>
                     <?php else: ?>
                         <form method="post" action="book_detail.php?id=<?= urlencode($book['id']) ?>">
                             <input type="hidden" name="book_id" value="<?= htmlspecialchars($book['id']) ?>">
-                            <button type="submit" name="borrow" class="borrow-btn">Pinjam Buku</button>
+                            <button type="submit" name="borrow" class="borrow-btn">Borrow</button>
                         </form>
                     <?php endif; ?>
                 </div>

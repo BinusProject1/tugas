@@ -98,8 +98,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete_book'])) {
                     <strong>Synopsis:</strong>
                     <p class="synopsis"><?= nl2br(htmlspecialchars($book['sinopsis'])) ?></p>                    
                     <!-- Form untuk menghapus buku -->
-                    <form method="post" action="admin_book_detail.php?id=<?= urlencode($book['id']) ?>" onsubmit="return confirm('Apakah Anda yakin ingin menghapus buku ini secara permanen?');">
-                        <button type="submit" name="delete_book" class="return-btn" style="background-color: #dc3545; border-color: #dc3545;">Hapus Buku</button>
+                    <form method="post" action="admin_book_detail.php?id=<?= urlencode($book['id']) ?>" onsubmit="return confirm('Are you sure you want to permanently delete this book?');">
+                        <button type="submit" name="delete_book" class="return-btn" style="background-color: #dc3545; border-color: #dc3545;">Delete Books</button>
                     </form>
                 </div>
             </div>
