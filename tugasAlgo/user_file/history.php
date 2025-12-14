@@ -55,7 +55,7 @@ if(!isset($_SESSION['email'])){
                     <?php endforeach; ?>
                 </div>
             <?php else: ?>
-                <p class="no-history">Anda belum meminjam buku apapun.</p>
+                <p class="no-history">You haven't borrowed any books yet.</p>
             <?php endif; ?>
         </div>
     </main>

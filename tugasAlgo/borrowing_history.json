@@ -17,5 +17,23 @@
         "borrow_date": "2025-12-14 05:59:49",
         "due_date": "2025-12-14 06:02:49",
         "status": "borrowed"
+    },
+    {
+        "user_email": "eva@gmail.com",
+        "book_id": "fiction-1",
+        "book_title": "Laskar Pelangi",
+        "book_image": "https:\/\/m.media-amazon.com\/images\/S\/compressed.photo.goodreads.com\/books\/1489732961i\/1362193.jpg",
+        "borrow_date": "2025-12-14 09:57:09",
+        "due_date": "2025-12-14 10:00:09",
+        "status": "borrowed"
+    },
+    {
+        "user_email": "eva@gmail.com",
+        "book_id": "fiction-2",
+        "book_title": "Bumi Manusia",
+        "book_image": "https:\/\/cdn.gramedia.com\/uploads\/items\/bumi-manusia-edit.jpg",
+        "borrow_date": "2025-12-14 09:57:30",
+        "due_date": "2025-12-14 10:00:30",
+        "status": "borrowed"
     }
 ]

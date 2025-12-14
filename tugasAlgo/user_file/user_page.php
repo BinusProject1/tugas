@@ -27,7 +27,6 @@ if(!isset($_SESSION['email'])){
     <!-- Main Content Start -->
     <main class="content">
         <h1>WELCOME TO B LIBRARY, <?php echo htmlspecialchars($_SESSION['name']); ?>!</h1>
-        <p>Ini adalah halaman utama perpustakaan Anda.</p>
 
         <section class="recomendation" id="recomendation">
             <h1>Fiction</h1>

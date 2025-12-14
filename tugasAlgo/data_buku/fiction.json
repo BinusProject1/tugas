@@ -27,7 +27,7 @@
             "publisher": "Gramadia",
             "year": 2005,
             "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/9786020524665_Sekuel_5cm-1.jpg",
-            "sinopsis": "Novel 5 cm menceritakan kisah lima sahabat—Arial, Riani, Zafran, Ian, dan Genta—yang telah menjalin persahabatan selama tujuh tahun. Mereka memutuskan untuk tidak berkomunikasi selama tiga bulan untuk mencari jati diri dan meninggalkan kebosanan. Setelah perpisahan itu, mereka kembali berkumpul dan melakukan pendakian ke Gunung Mahameru, puncak tertinggi di Jawa, sebagai simbol pencapaian mimpi dan penguatan kembali ikatan persahabatan mereka.",
+            "sinopsis": "Novel 5 cm menceritakan kisah lima sahabat\u2014Arial, Riani, Zafran, Ian, dan Genta\u2014yang telah menjalin persahabatan selama tujuh tahun. Mereka memutuskan untuk tidak berkomunikasi selama tiga bulan untuk mencari jati diri dan meninggalkan kebosanan. Setelah perpisahan itu, mereka kembali berkumpul dan melakukan pendakian ke Gunung Mahameru, puncak tertinggi di Jawa, sebagai simbol pencapaian mimpi dan penguatan kembali ikatan persahabatan mereka.",
             "genre": "fiction"
         },
         {
@@ -67,7 +67,7 @@
             "publisher": "Chilton Books",
             "year": 1965,
             "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/picture_meta/2023/3/26/ih86gbr4urzmibs3ah49hq.jpg",
-            "sinopsis": "Paul Atreides dan keluarganya dikirim untuk mengelola planet gurun Arrakis, satu-satunya sumber rempah-rempah Melange—zat paling berharga di alam semesta. Novel fiksi ilmiah epik ini membahas politik, agama, ekologi, dan evolusi manusia.",
+            "sinopsis": "Paul Atreides dan keluarganya dikirim untuk mengelola planet gurun Arrakis, satu-satunya sumber rempah-rempah Melange\u2014zat paling berharga di alam semesta. Novel fiksi ilmiah epik ini membahas politik, agama, ekologi, dan evolusi manusia.",
             "genre": "fiction"
         },
         {
@@ -199,7 +199,16 @@
             "image": "https://upload.wikimedia.org/wikipedia/en/b/bd/H2G2_UK_front_cover.jpg",
             "sinopsis": "Arthur Dent, seorang pria Inggris, diselamatkan oleh alien bernama Ford Prefect sesaat sebelum Bumi dihancurkan untuk pembangunan bypass antarbintang. Ini adalah komedi fiksi ilmiah absurd yang penuh dengan pertanyaan filosofis konyol tentang alam semesta.",
             "genre": "fiction"
+        },
+        {
+            "id": 62,
+            "title": "Laut Bercerita",
+            "author": "Lelia S. Chudori",
+            "publisher": "Kepustakaan Populer Gramedia",
+            "year": 2017,
+            "image": "https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/9786024246945_Laut-Bercerita.png",
+            "sinopsis": "Laut Bercerita, novel terbaru Leila S. Chudori, bertutur tentang kisah keluarga yang kehilangan, sekumpulan sahabat yang merasakan kekosongan di dada, sekelompok orang yang gemar menyiksa dan lancar berkhianat, sejumlah keluarga yang mencari kejelasan makam anaknya, dan tentang cinta yang tak akan luntur.",
+            "genre": "fiction"
         }
-
     ]
 }

@@ -86,6 +86,7 @@ if (file_exists($history_file)) {
             border: 1px solid #91d5ff;
             padding: 20px;
             border-radius: 8px;
+            margin: 30px 0px;
         }
     </style>
 </head>
@@ -96,12 +97,12 @@ if (file_exists($history_file)) {
         <h1>Financial Overview</h1>
 
         <div class="financial-summary">
-            <h2>Total Denda Saat Ini</h2>
+            <h2>Current Total Fines</h2>
             <p class="total-fine">Rp <?= number_format($total_fine, 0, ',', '.') ?></p>
         </div>
 
         <div class="fine-details">
-            <h2>Rincian Denda</h2>
+            <h2>Details of Fines</h2>
             <?php if (!empty($overdue_books)): ?>
                 <table>
                     <thead>
@@ -122,13 +123,13 @@ if (file_exists($history_file)) {
                     </tbody>
                 </table>
             <?php else: ?>
-                <p>Anda tidak memiliki denda. Terima kasih telah mengembalikan buku tepat waktu!</p>
+                <p>You don't have any fines. Thank you for returning the book on time.</p>
             <?php endif; ?>
         </div>
 
         <div class="payment-info">
-            <h2>Informasi Pembayaran</h2>
-            <p>Untuk melunasi denda, silakan kunjungi konter layanan perpustakaan. Tunjukkan halaman ini kepada petugas untuk mempermudah proses pembayaran.</p>
+            <h2>Payment Information</h2>
+            <p>To pay your fine, please visit the library service counter. Show this page to the staff to facilitate the payment process.</p>
         </div>
     </main>
 </body>
