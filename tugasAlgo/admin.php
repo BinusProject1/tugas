@@ -113,21 +113,21 @@ foreach ($users as $user) {
             <div class="stat-card receivable">
                 <i class="material-icons icon">error_outline</i>
                 <div class="info">
-                    <h3>Total Piutang Denda</h3>
+                    <h3>Total Fines Receivables</h3>
                     <p>Rp <?= number_format($grand_total_fine, 0, ',', '.') ?></p>
                 </div>
             </div>
             <div class="stat-card users">
                 <i class="material-icons icon">group</i>
                 <div class="info">
-                    <h3>Pengguna Terdaftar</h3>
+                    <h3>Registered Users</h3>
                     <p><?= count($users) ?></p>
                 </div>
             </div>
             <div class="stat-card borrowed">
                 <i class="material-icons icon">book</i>
                 <div class="info">
-                    <h3>Buku Sedang Dipinjam</h3>
+                    <h3>Book Currently on Loan</h3>
                     <p><?= $total_borrowed_books ?></p>
                 </div>
             </div>
@@ -141,8 +141,8 @@ foreach ($users as $user) {
                         <th>Name</th>
                         <th>Email</th>
                         <th>Role</th>
-                        <th>Buku yang Dipinjam</th>
-                        <th>Denda</th>
+                        <th>Borrowed Books</th>
+                        <th>Fines</th>
                     </tr>
                 </thead>
                 <tbody>

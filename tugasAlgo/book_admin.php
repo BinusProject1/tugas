@@ -43,7 +43,7 @@ if (!isset($_SESSION['email']) || $_SESSION['role'] !== 'admin') {
             </div>
             <a href="add_book.php" class="add-book-btn">
                 <i class="material-icons">add</i>
-                <span>Tambah Buku</span>
+                <span>Add book</span>
             </a>
         </div>
     <!-- serch bar end -->
