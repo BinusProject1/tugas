@@ -1,0 +1,21 @@
+[
+    {
+        "user_email": "tes@gmail.com",
+        "book_id": "fiction-1",
+        "book_title": "Laskar Pelangi",
+        "book_image": "https:\/\/m.media-amazon.com\/images\/S\/compressed.photo.goodreads.com\/books\/1489732961i\/1362193.jpg",
+        "borrow_date": "2025-12-11 16:35:18",
+        "due_date": "2025-12-18 16:35:18",
+        "status": "returned",
+        "return_date": "2025-12-13 14:38:18"
+    },
+    {
+        "user_email": "tes@gmail.com",
+        "book_id": "non-fiction-61",
+        "book_title": "from zero to survive",
+        "book_image": "https:\/\/ebooks.gramedia.com\/ebook-covers\/100176\/image_highres\/BLK_FZTSSMDHDR1740976837709.jpg",
+        "borrow_date": "2025-12-14 05:59:49",
+        "due_date": "2025-12-14 06:02:49",
+        "status": "borrowed"
+    }
+]

@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fff;
+}
+
+/* side bar style */
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 220px;
+    height: 100%;
+    background: #003366;
+    box-shadow: 3px 0px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+nav .profile {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #004080;
+}
+
+nav .profile .material-icons {
+    font-size: 80px;
+    color: #fff;
+}
+
+nav .profile h1 {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+nav .profile .detail {
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+nav div .menu {
+    display: block;
+    padding: 15px 25px;
+    color: #fff;
+    font-size: 18px;
+    transition: background 0.3s, padding-left 0.3s;
+    border-bottom: 1px solid #004080;
+}
+
+nav div .menu:hover {
+    background: #0059b3;
+    padding-left: 35px;
+}
+
+/* search and filter container */
+.search-filter-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+/* serch bar stye */
+
+.search {
+    display: flex;
+    align-items: center;
+    z-index: 3;
+    position: relative;
+    flex-grow: 1;
+    min-height: 50px;
+    background: #c9c8c8ff;
+    box-shadow: none;
+    border-radius: 26px;
+    padding-left: 20px;
+}
+
+.search-form {
+    display: flex;
+    flex-grow: 1;
+}
+
+.search input {
+    flex-grow: 1;
+    height: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+/* search logo */
+.search i {
+    color: #333;
+    font-size: 20px;
+}
+
+/* Main content area */
+.content {
+    margin-left: 220px;
+    /* Same as nav width */
+    padding: 20px 40px;
+}
+
+/* Book container */
+.book-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.book-card {
+    background-color: #f9f9f9;
+    border-radius: 0 0 8px 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0.4em 0.3em 0.7em 0.3em darkgray;
+}
+
+.book-card img {
+    width: 200px;
+    height: 270px;
+    object-fit: fill;
+}
+
+.book-card .book-info {
+    padding: 15px;
+    flex-grow: 1;
+}
+
+.book-card h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.book-card p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.no-results {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #777;
+    margin-top: 50px;
+}
+
+/* filter */
+.filter-container {
+    position: relative;
+}
+
+.filter-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.filter-button:hover {
+    background-color: #0059b3;
+}
+
+.filter-dropdown {
+    display: none;
+    position: absolute;
+    top: 110%;
+    right: 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    z-index: 10;
+    min-width: 200px;
+}
+
+.filter-dropdown.active {
+    display: block;
+}
+
+.filter-dropdown a {
+    display: block;
+    padding: 12px 20px;
+    color: #333;
+    transition: background-color 0.2s;
+}
+
+.filter-dropdown a:hover {
+    background-color: #f0f0f0;
+}
+
+.search-filter-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.search-form {
+    flex-grow: 1;
+}
+
+.add-book-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    background-color: #0059b3;
+    /* Warna hijau */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.add-book-btn:hover {
+    background-color: #004080;
+    /* Warna hijau lebih gelap saat hover */
+}
+
+.add-book-btn .material-icons {
+    font-size: 20px;
+}

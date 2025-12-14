@@ -3,7 +3,7 @@
 session_start();
 include_once 'navbar.php';
 if(!isset($_SESSION['email'])){
-    header("location: login/login.php");
+    header("location: ../login/login.php");
     exit();
 }
 ?>
@@ -48,13 +48,20 @@ if(!isset($_SESSION['email'])){
     <div class="book-container">
         <?php
             // Load and decode JSON files
-            $novel_data = json_decode(file_get_contents('fiction.json'), true);
-            $knowledge_data = json_decode(file_get_contents('non_fiction.json'), true);
-            $next_data = json_decode(file_get_contents('next_read.json'), true);
-            $most_data = json_decode(file_get_contents('most_read.json'), true);
+            $all_books = [];
+            $fiction_books = json_decode(file_get_contents('../data_buku/fiction.json'), true)['books'] ?? [];
+            $non_fiction_books = json_decode(file_get_contents('../data_buku/non_fiction.json'), true)['books'] ?? [];
+
+            foreach ($fiction_books as $book) {
+                $book['id'] = 'fiction-' . $book['id'];
+                $all_books[] = $book;
+            }
+            foreach ($non_fiction_books as $book) {
+                $book['id'] = 'non-fiction-' . $book['id'];
+                $all_books[] = $book;
+            }
 
             // Merge books from both files
-            $all_books = array_merge($novel_data['books'], $knowledge_data['books']);
 
             // Filter books based on search query
             $search_query = strtolower(trim($_GET['search'] ?? ''));

@@ -1,7 +1,7 @@
 {
   "books": [
     {
-      "id": 1,
+      "id": 21,
       "title": "Dune",
       "author": "Frank Herbert",
       "publisher": "Chilton Books",
@@ -11,7 +11,7 @@
       "genre": "fiction"
     },
     {
-      "id": 2,
+      "id": 22,
       "title": "Gone Girl",
       "author": "Gillian Flynn",
       "publisher": "Crown Publishing Group",
@@ -21,7 +21,7 @@
       "genre": "fiction"
     },
     {
-      "id": 3,
+      "id": 23,
       "title": "The Power Of Habit",
       "author": "Charles Duhigg",
       "publisher": "Kepustakaan Populer Gramedia",
@@ -31,7 +31,7 @@
       "genre": "non-fiction"
     },
     {
-      "id": 4,
+      "id": 24,
       "title": "Atomic Habits",
       "author": "James Clear",
       "publisher": "Gramedia Pustaka Utama",
@@ -41,17 +41,7 @@
       "genre": "non-fiction"
     },
     {
-      "id": 5,
-      "title": "Laskar Pelangi",
-      "author": "Andrea Hirata",
-      "publisher": "Bentang Pustaka",
-      "year": 2005,
-      "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1489732961i/1362193.jpg",
-      "sinopsis": "Laskar Pelangi menceritakan kisah sepuluh anak dari Belitung yang bersekolah di SD Muhammadiyah Gantong, sebuah sekolah miskin yang terancam tutup karena kekurangan murid. Meski menghadapi berbagai keterbatasan, mereka tetap berjuang meraih pendidikan di bawah bimbingan guru mereka, Ibu Muslimah dan Bapak Harfan. Cerita ini menyoroti perjuangan, persahabatan, dan semangat mereka untuk belajar dalam menghadapi kesulitan hidup. ",
-      "genre": "fiction"
-    },
-    {
-      "id": 6,
+      "id": 26,
       "title": "Bumi Manusia",
       "author": "Pramoedya Ananta Toer",
       "publisher": "Hasta Mitra",
@@ -61,7 +51,7 @@
       "genre": "fiction"
     },
     {
-      "id": 7,
+      "id": 27,
       "title": "Rich Dad Poor Dad",
       "author": "Robert T. Kiyosaki",
       "publisher": "Gramedia Pustaka Utama",
@@ -71,7 +61,7 @@
       "genre": "non-fiction"      
     },
     {
-      "id": 8,
+      "id": 28,
       "title": "The 7 Habits of Highly Effective People",
       "author": "Stephen R. Covey",
       "publisher": "Dunamis Publishing",
@@ -81,7 +71,7 @@
       "genre": "non-fiction"
     },
     {
-      "id": 9,
+      "id": 29,
       "title": "The Great Gatsby",
       "author": "F. Scott Fitzgerald",
       "publisher": "Charles Scribner's Sons",
@@ -91,7 +81,7 @@
       "genre": "fiction"
     },
     {
-      "id": 10,
+      "id": 30,
       "title": "You Do You: Discovering Life through Experiments & Self-Awareness",
       "author": "Fellexandro Ruby",
       "publisher": "Gramedia Pustaka Utama",

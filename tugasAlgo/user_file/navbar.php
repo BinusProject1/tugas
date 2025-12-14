@@ -5,15 +5,21 @@ function generate_navbar($active_page = '', $is_admin = false) {
     }
 
     $name = htmlspecialchars($_SESSION['name'] ?? 'Guest');
-    $home_link = $is_admin ? '#' : 'user_page.php';
-    $logout_path = $is_admin ? 'login/logout.php' : 'logout.php';
+    $logout_path = $is_admin ? 'logout.php' : '../logout.php';
 
-    $nav_links = [
-        'HOME' => $is_admin ? '#' : 'user_page.php',
-        'Book' => 'book.php',
-        'History' => 'history.php',
-        'Financial' => '#'
-    ];
+    if ($is_admin) {
+        $nav_links = [
+            'HOME' => 'admin.php',
+            'Book' => './book_admin.php',
+        ];
+    } else {
+        $nav_links = [
+            'HOME' => 'user_page.php',
+            'Book' => 'book.php',
+            'History' => 'history.php',
+            'Financial' => 'financial.php'
+        ];
+    }
 
     echo <<<HTML
     <nav>

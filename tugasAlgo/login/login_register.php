@@ -30,11 +30,12 @@ if(isset($_POST['login'])){
         if(password_verify($password, $user['password'])){
             $_SESSION['name'] = $user['name'];
             $_SESSION['email'] = $user['email'];
+            $_SESSION['role'] = $user['role'];
 
             if($user['role'] === 'admin'){
                 header("Location: ../admin.php");
             }else{
-                header("Location: ../user_page.php");
+                header("Location: ../user_file/user_page.php");
             }
             exit();
         } 
